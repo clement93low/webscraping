@@ -15,7 +15,7 @@ options.add_argument('--disable-extensions')
 driver = webdriver.Edge(msedge_driver_path)
 quotes=[]
 
-# Add the url
+# Add the url on branch feature_01
 # url = 'https://candidates.myfuturejobs.gov.my/search-jobs/description?jobId=8580f4f0a77944f0a54507b7e9c2f4e8&CONTRACT_TYPE=1&SALARY=A'
 # url = 'https://candidates.myfuturejobs.gov.my/search-jobs/description?jobId=bb2cba52bd7048f8af535904961ec3cf&CONTRACT_TYPE=1&SALARY=B'
 url = 'https://candidates.myfuturejobs.gov.my/search-jobs/description?jobId=438e51a768254eb2ad0173d0d4925d1c&CONTRACT_TYPE=1&SALARY=C'
